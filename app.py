@@ -55,11 +55,10 @@ if q5:
         st.write("Wrong")
 
 
-if st.button("Show result"):
-    st.write("### Final score:")
-    st.write(score, "/ 5")
+st.write("Your score is", score)
 
-    if score == 5:
-        st.write("🎉 Excellent!")
-    else:
-        st.write("Try again 🙂")
+if score == 5:
+    st.write("Excellent")
+else:
+    st.write("Try again")
+
