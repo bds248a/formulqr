@@ -6,7 +6,7 @@ score = 0
 
 
 st.write("1. What is the capital of Bulgaria?")
-q1 = st.text_input("Your answer:")
+q1 = st.text_input("Your answer (q1):")
 if q1:
     if q1.lower() == "sofia":
         score += 1
@@ -16,7 +16,7 @@ if q1:
 
 
 st.write("2. Which continent is Germany in?")
-q2 = st.text_input("Your answer:")
+q2 = st.text_input("Your answer (q2):")
 if q2:
     if q2.lower() == "europe":
         score += 1
@@ -26,7 +26,7 @@ if q2:
 
 
 st.write("3. What is the largest ocean?")
-q3 = st.text_input("Your answer:")
+q3 = st.text_input("Your answer (q3):")
 if q3:
     if q3.lower() == "pacific":
         score += 1
@@ -36,7 +36,7 @@ if q3:
 
 
 st.write("4. Which desert is the largest in the world?")
-q4 = st.text_input("Your answer:")
+q4 = st.text_input("Your answer (q4):")
 if q4:
     if q4.lower() == "sahara":
         score += 1
@@ -46,7 +46,7 @@ if q4:
 
 
 st.write("5. What is the longest river in the world?")
-q5 = st.text_input("Your answer:")
+q5 = st.text_input("Your answer (q5):")
 if q5:
     if q5.lower() == "nile":
         score += 1
