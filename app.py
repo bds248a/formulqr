@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🌍 Geography Quiz")
+st.title("Geography Quiz")
 
 score = 0
 
